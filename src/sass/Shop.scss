@@ -1,0 +1,38 @@
+#shop-page {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    
+        li {
+            width: 50%;
+    
+            &:nth-child(1n+3) {
+                margin-top: 30px;
+            }
+
+            @media (min-width: 480px) {
+                width: 33%;
+    
+                &:nth-child(1n+4) {
+                    margin-top: 30px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                width: 20%;
+    
+                &:nth-child(1n+6) {
+                    margin-top: 30px;
+                }
+            }
+        }
+    
+        a {
+            margin-bottom: 5px;
+            display: block;
+            font-family: "Roboto";
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+}

@@ -31,3 +31,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* Global */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
